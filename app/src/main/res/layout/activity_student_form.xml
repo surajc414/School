@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:stretchColumns="*"
+    android:layout_height="match_parent"
+    tools:context=".StudentForm">
+
+    <TableRow
+        android:layout_marginTop="20dp"
+        >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:layout_marginLeft="10dp"
+        android:text="Name"/>
+
+        <EditText
+            android:layout_span="3"
+            android:inputType="text"
+            android:id="@+id/std_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Student Name"/>
+    </TableRow>
+
+
+    <TableRow
+        android:layout_marginTop="8dp"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:layout_marginLeft="10dp"
+            android:text="Contact"/>
+        <EditText
+            android:layout_span="3"
+            android:inputType="number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Student Contact"/>
+    </TableRow>
+
+    <TableRow android:layout_marginTop="8dp">
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:layout_marginLeft="10dp"
+            android:text="Gender"/>
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Male"/>
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Female"/>
+    </TableRow>
+
+    <TableRow android:layout_marginTop="8dp">
+
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="City"/>
+        <Spinner
+            android:layout_marginLeft="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_span="3"
+            />
+    </TableRow>
+
+    <TableRow android:layout_marginTop="8dp"
+        >
+        <TextView
+            android:layout_span="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:layout_marginLeft="10dp"
+            android:text="Hobby"/>
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Reading New Paper"/>
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Playing Cricket"/>
+
+
+    </TableRow>
+
+
+    <TableRow android:layout_marginTop="8dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="Notification"/>
+
+        <Switch
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+
+
+    </TableRow>
+
+    <TableRow android:layout_marginTop="8dp"
+        >
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:text="New"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:text="Save"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="2"
+            android:text="Search"/>
+    </TableRow>
+
+
+    <TableRow android:layout_marginTop="8dp"
+        >
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+
+            android:text="Delete"/>
+
+        <Button
+            android:layout_span="2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:text="Show All"/>
+    </TableRow>
+
+
+    <TableRow android:layout_marginTop="8dp">
+
+        <ImageButton
+            android:layout_width="10dp"
+            android:layout_height="wrap_content"
+            android:layout_span="1"
+            android:src="@drawable/previous"
+
+            />
+
+
+        <ImageButton
+            android:layout_width="20dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/next"
+            android:layout_column="2"
+            />
+
+    </TableRow>
+    <TableRow android:layout_marginTop="8dp"
+        >
+        <ImageButton
+            android:layout_width="20dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/first_rec"
+            />
+
+
+
+        <ImageButton
+            android:layout_width="20dp"
+            android:layout_height="wrap_content"
+            android:layout_column="2"
+            android:src="@drawable/last_rec"
+
+            />
+    </TableRow>
+
+</TableLayout>
+
+    </ScrollView>

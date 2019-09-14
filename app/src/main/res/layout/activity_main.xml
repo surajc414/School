@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#46F0EDED"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:src="@drawable/login"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp" />
+
+    <EditText
+        android:id="@+id/user"
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+        android:layout_marginTop="10dp"
+        android:padding="5dp"
+        android:background="#fff"
+        android:layout_margin="10dp"
+        android:hint="User Name"
+        />
+
+    <EditText
+        android:id="@+id/pwd"
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+        android:layout_marginTop="10dp"
+        android:layout_margin="10dp"
+        android:background="#fff"
+        android:padding="5dp"
+        android:inputType="text"
+        android:hint="Password"/>
+
+
+        <CheckBox
+            android:id="@+id/remeber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Remember me"/>
+
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+        android:layout_marginTop="10dp"
+        android:layout_margin="10dp"
+        android:text="Sign In"
+        android:textColor="#fff"
+        android:background="#FF6D00"
+        />
+
+    <Button
+        android:id="@+id/signup"
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+        android:layout_marginTop="10dp"
+        android:layout_margin="10dp"
+        android:text="Sign Up"
+
+        android:background="#FFf"
+        />
+
+    <Button
+        android:id="@+id/signin_facebook"
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+        android:layout_marginTop="10dp"
+        android:layout_margin="10dp"
+        android:text="Sign In with Facebook"
+        android:layout_gravity="bottom"
+        android:textColor="#fff"
+        android:background="#5C12C2"
+        />
+</LinearLayout>
