@@ -144,7 +144,7 @@ public class MainActivity extends AppCompatActivity {
 
                     } catch (SQLiteException e) {
                         Log.e("Information", e.toString());
-                        //              Toast.makeText(getApplicationContext(),e.toString(),Toast.LENGTH_LONG).show();
+                                   Toast.makeText(getApplicationContext(),e.toString(),Toast.LENGTH_LONG).show();
 
                     }
                 }
